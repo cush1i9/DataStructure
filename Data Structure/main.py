@@ -7,7 +7,7 @@ import time
 from tkinter import Tk, Label, StringVar, Button, Entry, BOTTOM, RIGHT
 
 
- def count_set_bits(n):
+def count_set_bits(n):
     count = 0
     while n:
         count += n & 1
