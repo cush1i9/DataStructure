@@ -19,7 +19,7 @@ The Hamiltonian cycle problem is the problem of determining whether a Hamiltonia
 
 ## The three ways are listed here to solve this problem:
 
-### 1.There is a way to solve the Hamiltonian cycle problem via a brute force search algorithm that tests all possible sequence.
+### 1. There is a way to solve the Hamiltonian cycle problem via a brute force search algorithm that tests all possible sequence.
 
 The algorithms is shown:
 ```
@@ -40,7 +40,7 @@ Begin
 End
 ```
 
-### 2.Also, there is a way to solve via a dynamic programming algorithm that the algorithm is called Bellman–Held–Karp algorithm.
+### 2. Also, there is a way to solve via a dynamic programming algorithm that the algorithm is called Bellman–Held–Karp algorithm.
 
 The algorithm is shown:
 
@@ -61,7 +61,7 @@ function algorithm TSP (G, n) is
     return (opt)
 end function 
 
-### 3.Andreas Björklund provided an alternative approach using the inclusion–exclusion principle to reduce the problem of counting the number of Hamiltonian cycles to a simpler counting problem, of counting cycle covers, which can be solved by computing certain matrix determinants.
+### 3. Andreas Björklund provided an alternative approach using the inclusion–exclusion principle to reduce the problem of counting the number of Hamiltonian cycles to a simpler counting problem, of counting cycle covers, which can be solved by computing certain matrix determinants.
 
 # Complexities
 
