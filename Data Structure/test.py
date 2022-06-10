@@ -40,7 +40,7 @@ class Test(unittest.TestCase):
         self.assertEqual(bellman.find_hamilton_cycle(), True)
         self.assertEqual(inc.find_hamilton_cycle(), True)
 
-    def test_case4(self):
+     def test_case4(self):
         random_list = [[0, 1, 0, 0, 1, 0], [1, 0, 1, 0, 1, 0],
                        [0, 1, 0, 1, 0, 0], [0, 0, 1, 0, 1, 1],
                        [1, 1, 0, 1, 0, 0], [0, 0, 0, 1, 0, 0],
