@@ -48,7 +48,7 @@ class TimeCalculating:
 
             bellman_time.append(second_average_time / len(given_list[k]))
 
-        for k in range(number_of_test):
+         for k in range(number_of_test):
             third_average_time = 0
             graph = Graph(len(given_list[k]))
             graph.set_matrix(given_list[k])
